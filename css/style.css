@@ -1,0 +1,146 @@
+/* fonts */
+p {
+    font-size: 20px;
+}
+
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* disabled block */
+
+/*div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    height: 200px;
+    width: 50%;
+}*/
+
+/* bg */
+
+body {
+    background-image: url("");
+}
+
+/* tab 1 */
+
+/* div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+div.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} */
+
+/* tab 2 */
+
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#home {background-color:#b1e1e2;}
+#about {background-color:#3fd7a9;}
+#discord {background-color:#7289DA;}
+#ok {background-color:#ffcccc;}
+#meme {background-color:#2C2F33;}
+#music {background-color:#b1e1e2;}
+#umu {background-color:#3b5998;}
+
+
+/* loading button css */
+
+.buttonload {
+    background-color: #4CAF50;
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    font-size: 16px;
+}
+
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
+
+/* meme text */
+
+H4 {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count:
+ infinite;
+    -webkit-animation-name: colours;
+    -webkit-animation-timing-function:
+ ease;
+}
+
+@-webkit-keyframes colours {
+      0% {color: #ff0000;}
+     40% {color: #00ff00;}
+     80% {color: #0000ff;}
+   100%{color: #ff0000;}
+}
+
+/* fin */
