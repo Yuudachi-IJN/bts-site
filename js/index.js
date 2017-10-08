@@ -14,6 +14,8 @@
 // }
 
 // tab 2 js
+
+
 function openCity(cityName,elmnt,color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
