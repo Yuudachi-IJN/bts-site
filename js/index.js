@@ -15,6 +15,7 @@
 
 // tab 2 js
 
+var mmusic = 0;
 
 function openCity(cityName,elmnt,color) {
     var i, tabcontent, tablinks;
