@@ -14,20 +14,7 @@
                 background-color: #4CAF50;
                 border: none;
                 color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-            }
-
-            .number {
-                /* background-color: #4CAF50; */
-                border: 0;
-                color: rgb(0, 0, 0);
-                padding: 1px 1px;
+                padding: 10px 100px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
@@ -90,7 +77,7 @@
         
 
 
-         <button class="tablink" onclick="openCity('home', this, '#b1e1e2')" id="defaultOpen">Home</button>
+         <button class="tablink" onclick="openCity('home', this, '#e2b1b1')" id="defaultOpen">Home</button>
          <button class="tablink" onclick="openCity('about', this, '#3fd7a9')">About</button>
          <button class="tablink" onclick="openCity('discord', this, '#7289DA')">Discord</button>
          <button class="tablink" onclick="openCity('umu', this, '#3b5998')">FaceBook</button>
@@ -151,10 +138,10 @@
                                     <div id="_nEn">
                                        <div class="gws-csf-randomnumber__result">9</div>
                                        <div class="_TDn">
-                                          <div class="txt" id="Min" >Min</div>
-                                          <div class="number"><input class="_ufn gws-csf-randomnumber__minVal" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
-                                          <div class="txt" id="Max" >Max</div>
-                                          <div class="number"><input class="_ufn gws-csf-randomnumber__maxVal" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
+                                          <div class="txt" id="Min" style="color:#b1b1b1;">Min</div>
+                                          <div class="number"><input class="_ufn gws-csf-randomnumber__minVal" style="border:0; background-color:#0057e7; color: white; font-size: 20px;" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
+                                          <div class="txt" id="Max" style="color:#b1b1b1;">Max</div>
+                                          <div class="number" ><input class="_ufn gws-csf-randomnumber__maxVal" style="border:0; background-color:#0057e7; color: white; font-size: 20px;" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
                                        </div>
                                     </div>
                                  </div>
@@ -180,7 +167,7 @@
          <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
          <button class="tablink" onclick="openCity('rng', this, '#0057e7')">rng</button>
-         
+
          <button class="buttonload">
          <i class="fa fa-spinner fa-spin"></i>Loading
          </button>
