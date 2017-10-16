@@ -11,7 +11,7 @@
 
          <style>
             .button {
-                background-color: #4CAF50;
+                background-color:#b1e1e2;
                 border: none;
                 color: white;
                 padding: 10px 200px;
@@ -23,12 +23,17 @@
                 cursor: pointer;
             }
 
-            .answer {
-                position: absolute;
-                top: 140px;
-                left: 370px;
-                width: 1px;
-                height: 1px;
+            .number {
+              border-top: 0;
+              border-right: 0;
+              border-bottom: 3px solid red; 
+              border-left: 0;
+
+              outline:none; 
+              background-color:#0057e7; 
+              color: white; 
+              font-size: 20px;
+
             }
 
             /* div {
@@ -138,51 +143,28 @@
          </div>
 
          
-         <div id="rng" class="tabcontent">
-
-            <div class="g mnr-c g-blk" data-hveid="38" data-ved="0ahUKEwiXgJTtiOjWAhVBl5QKHey7DjEQijYIJigA">
-               <div class="kp-blk _Rqb _RJe">
-                  <div class="xpdopen _vcj">
-                     <div class="_OKe">
-                        
-                        <div>
-                           <div class="_Wtj mod" data-md="137" data-hveid="39" data-ved="0ahUKEwiXgJTtiOjWAhVBl5QKHey7DjEQ2XIIJygAMAA">
-                              <!--m-->
-                              <div id="_uDn" jsl="$t t-V315OLM2xt0;$x 0;" class="r-i_uMt8w8kz_g">
-                                 <div id="_mEn">
-                                    <div class="Box" id="_nEn" >
-                                       <div class="_TDn">
-                                          <div class="answer" id="answer" style="font-size: 100px;">9</div>
-
-                                          <div class="txt" id="Min" style="color:#b1b1b1;">Min</div>
-                                          <div class="number"><input class="_ufn gws-csf-randomnumber__minVal" style="outline:none; border:0; background-color:#0057e7; color: white; font-size: 20px;" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
-                                          <div class="txt" id="Max" style="color:#b1b1b1;">Max</div>
-                                          <div class="number" ><input class="_ufn gws-csf-randomnumber__maxVal" style="outline:none; border:0; background-color:#0057e7; color: white; font-size: 20px;" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div id="_tDn">
-                                    <div id="_Ofn" role="button" tabindex="0" class="i_uMt8w8kz_g-GhRiBEySwgo" jsaction="r.9d1IQjxnxVs" data-rtid="i_uMt8w8kz_g" jsl="$x 1;">
-                                       <div class="button" id="Generate" >Generate</div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!--n-->
-                           </div>
-                        </div>
-                     </div>
-                     <div style="clear:both"></div>
-                  </div>
-               </div>
-            </div>
-
-         </div>
+        <div id="rng" class="tabcontent">
+           
+          <div id="rng-content" class="_TDn">
+            <div id="rng-result" class="answer" style="font-size: 100px;">9</div>
+              <div class="space1"></div>
+              <div id="rng-input">
+                <div class="txt" id="Min" style="color:#b1b1b1;">Min</div>
+                <div class="user"><input class="number" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
+                <div class="txt" id="Max" style="color:#b1b1b1;">Max</div>
+                <div class="user" ><input class="number" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
+              </div>
+          </div>
+            <div id="rng-btn" role="button" tabindex="0" class="i_uMt8w8kz_g-GhRiBEySwgo" jsaction="r.9d1IQjxnxVs" data-rtid="i_uMt8w8kz_g" jsl="$x 1;">
+              <div class="button" id="Generate" >Generate</div>
+          </div>
+        </div>
 
 
          <button class="tablink" onclick="openCity('meme', this,'#2C2F33')">Meme</button>
          <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
-         <button class="tablink" onclick="openCity('rng', this, '#0057e7')">rng</button>
+         <button class="tablink" onclick="openCity('rng', this, '#b1e1e2')">rng</button>
 
          <button class="buttonload">
          <i class="fa fa-spinner fa-spin"></i>Loading
