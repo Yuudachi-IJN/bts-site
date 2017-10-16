@@ -100,14 +100,18 @@ body {font-family: "Lato", sans-serif;}
     text-align: center;
 }
 
-#home {background-color:#e2b1b1;}
+#home {background-color:#b1e1e2;}
 #about {background-color:#3fd7a9;}
 #discord {background-color:#7289DA;}
 #ok {background-color:#ffcccc;}
 #meme {background-color:#2C2F33;}
 #music {background-color:#b1e1e2;}
 #umu {background-color:#3b5998;}
+<<<<<<< HEAD
 #rng {background-color:#b1e1e2;}
+=======
+#rng {background-color:#9effeb;}
+>>>>>>> 789e08e90e4470deebf60b1de4eac088744b1870
 
 
 /* loading button css */
@@ -150,6 +154,7 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none !important;
     margin: 0;
 }
+<<<<<<< HEAD
 
 #rng {
    font: 24px Helvetica;
@@ -183,8 +188,7 @@ input::-webkit-inner-spin-button {
 
 
 
+=======
+>>>>>>> 789e08e90e4470deebf60b1de4eac088744b1870
 
 /* fin */
-
-
-
