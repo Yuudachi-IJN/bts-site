@@ -107,7 +107,7 @@ body {font-family: "Lato", sans-serif;}
 #meme {background-color:#2C2F33;}
 #music {background-color:#b1e1e2;}
 #umu {background-color:#3b5998;}
-#rng {background-color:#0057e7;}
+#rng {background-color:#9effeb;}
 
 
 /* loading button css */
@@ -150,9 +150,5 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none !important;
     margin: 0;
 }
-/* rng */
-
-
-
 
 /* fin */
