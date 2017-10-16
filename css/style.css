@@ -100,7 +100,7 @@ body {font-family: "Lato", sans-serif;}
     text-align: center;
 }
 
-#home {background-color:#e2b1b1;}
+#home {background-color:#b1e1e2;}
 #about {background-color:#3fd7a9;}
 #discord {background-color:#7289DA;}
 #ok {background-color:#ffcccc;}
@@ -156,6 +156,3 @@ input::-webkit-inner-spin-button {
 
 
 /* fin */
-
-
-
