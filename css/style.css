@@ -177,7 +177,7 @@ input::-webkit-inner-spin-button {
    }
 
 .Generate {
-       background-color: #0057e7;
+       background-color: #ffa700;
        border: none;
        color: white;
        padding: 12px 24px;
@@ -192,7 +192,7 @@ input::-webkit-inner-spin-button {
     background-color:#b700ff;
     border: none;
     color: white;
-    padding: 10px 200px;
+    padding: 10px 400px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
