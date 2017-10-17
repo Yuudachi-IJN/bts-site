@@ -14,10 +14,7 @@
 // }
 
 // tab 2 js
-
-
-
-function openCity(cityName,elmnt,color) {
+function openCity(cityName, elmnt, color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -43,15 +40,17 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
+        slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
+    if (slideIndex > slides.length) {
+        slideIndex = 1
+    }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 5000);
 }
 
