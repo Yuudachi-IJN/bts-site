@@ -100,14 +100,14 @@ body {font-family: "Lato", sans-serif;}
     text-align: center;
 }
 
-#home {background-color:#ffccc;}
+#home {background-color:#ffcccc;}
 #about {background-color:#3fd7a9;}
 #discord {background-color:#7289DA;}
 #ok {background-color:#ffcccc;}
 #meme {background-color:#2C2F33;}
 #music {background-color:#b1e1e2;}
 #umu {background-color:#3b5998;}
-#rng {background-color:#b1e1e2;}
+#rng {background-color:#0057e7;}
 
 
 /* loading button css */
@@ -150,7 +150,6 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none !important;
     margin: 0;
 }
-<<<<<<< HEAD
 
 #rng {
    font: 24px Helvetica;
@@ -178,13 +177,37 @@ input::-webkit-inner-spin-button {
    }
 
 .space1 {
-  padding: 0.5em;
+  padding: 2em;
+}
+
+.button {
+    background-color:#b700ff;
+    border: none;
+    color: white;
+    padding: 10px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.number {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 3px solid red; 
+  border-left: 0;
+
+  outline:none; 
+  background-color:#0057e7; 
+  color: white; 
+  font-size: 20px;
+
 }
 /* rng */
 
 
 
-=======
->>>>>>> 789e08e90e4470deebf60b1de4eac088744b1870
 
 /* fin */
