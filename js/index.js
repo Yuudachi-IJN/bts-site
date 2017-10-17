@@ -59,8 +59,8 @@ function showSlides() {
 
 
 //rng
-function myFunction() {
-    document.getElementById("rng-result").innerHTML = "hi";
+function Generate() {
+    getElementById('rng-result').innerHTML=Date()
 }
 
 
