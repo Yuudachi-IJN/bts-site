@@ -4,57 +4,43 @@
       <meta charset="UTF-8">
       <title>BTS site</title>
       <link rel="stylesheet" href="css/style.css">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <h1 class="sansserif">BTS</h1>
-         <p class="sansserif">By The Students</p>
-
-
-         <style>
-            .button {
-                background-color:#b1e1e2;
-                border: none;
-                color: white;
-                padding: 10px 200px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-            }
-
-            .number {
-              border-top: 0;
-              border-right: 0;
-              border-bottom: 3px solid red;
-              border-left: 0;
-
-              outline:none;
-              background-color:#0057e7;
-              color: white;
-              font-size: 20px;
-
-            }
-
-            /* div {
-              background-color: lightgrey;
-              width: 300px;
-              border: 1px solid green;
-              padding: 1px;
-              margin: 1px;
-              } */
-
-            </style>
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <h1 class="sansserif">BTS</h1>
+      <p class="sansserif">By The Students</p>
+      <style>
+         .button {
+         background-color:#b1e1e2;
+         border: none;
+         color: white;
+         padding: 10px 200px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+         .number {
+         border-top: 0;
+         border-right: 0;
+         border-bottom: 3px solid red;
+         border-left: 0;
+         outline:none;
+         background-color:#0057e7;
+         color: white;
+         font-size: 20px;
+         }
+         /* div {
+         background-color: lightgrey;
+         width: 300px;
+         border: 1px solid green;
+         padding: 1px;
+         margin: 1px;
+         } */
+      </style>
    </head>
-
-
-
-
    <body>
-
       <html>
-
          <!--[if gte IE 8]>內容<![endif]-->
          <!-- <div class="tab">
             <button class="tablinks" onclick="openPage(event, 'Home')">Home</button>
@@ -86,7 +72,6 @@
             <div id="meme" class="tabcontent">
 
             </div> -->
-
          <div id="fb-root"></div>
          <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -96,76 +81,59 @@
             fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
          </script>
-
-
-
          <button class="tablink" onclick="openCity('home', this, '#b1e1e2')" id="defaultOpen">Home</button>
          <button class="tablink" onclick="openCity('about', this, '#3fd7a9')">About</button>
          <button class="tablink" onclick="openCity('discord', this, '#7289DA')">Discord</button>
          <button class="tablink" onclick="openCity('umu', this, '#3b5998')">FaceBook</button>
-
-
          <div id="home" class="tabcontent">
             <h3 align="left">BTS</h3>
             <p align="left">BTS is the lololol school of Taiwan.</p>
          </div>
-
          <div id="about" class="tabcontent">
             <h3 align="left">BTS</h3>
             <p align="left">BTS is the lololol school of Taiwan.</p>
          </div>
-
          <div id="discord" class="tabcontent">
             <iframe src="https://discordapp.com/widget?id=350186602053763072&theme=dark" width="800" height="500" allowtransparency="true" frameborder="0"></iframe>
          </div>
-
          <div id="umu" class="tabcontent">
             <div class="fb-page" data-href="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/" data-tabs="timeline" data-width="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                <blockquote cite="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/%22%3E">無界塾</a></blockquote>
             </div>
          </div>
-
          <div id="meme" class="tabcontent">
             <img src="http://38.media.tumblr.com/87476448149835f3a8bcc6239aa3ab5b/tumblr_nd1hhtVTbz1tmzoh7o1_1280.gif" height="430" width="500">
             <div>
                <marquee width=20% LOOP="0" SCROLLAMOUNT="10" >MEME</marquee>
             </div>
          </div>
-
          <div id="ok" class="tabcontent">
             <h3>lol</h3>
             <p>lol</p>
          </div>
-
          <div id="music" class="tabcontent">
             <audio autoplay="true" volume = "0.1% " loop = "10"
                src="music/fly.mp3" ></audio>
          </div>
-
-
-        <div id="rng" class="tabcontent">
-
-          <div id="rng-content" class="_TDn">
-            <div id="rng-result" class="answer" style="font-size: 100px;">9</div>
-              <div class="space1"></div>
-              <div id="rng-input">
-                <div class="txt" id="Min" style="color:#008744;">Min</div>
-                <div class="user"><input class="number" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
-                <div class="txt" id="Max" style="color:#008744;">Max</div>
-                <div class="user" ><input class="number" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
-              </div>
-          </div>
+         <div id="rng" class="tabcontent">
+            <div id="rng-content" class="_TDn">
+               <div id="rng-result" class="answer" style="font-size: 100px;">9</div>
+               <div class="space1"></div>
+               <div id="rng-input">
+                  <div class="txt" id="Min" style="color:#008744;">Min</div>
+                  <div class="user"><input class="number" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
+                  <div class="txt" id="Max" style="color:#008744;">Max</div>
+                  <div class="user" ><input class="number" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
+               </div>
+            </div>
             <div id="rng-btn" role="button" tabindex="0" class="i_uMt8w8kz_g-GhRiBEySwgo" jsaction="r.9d1IQjxnxVs" data-rtid="i_uMt8w8kz_g" jsl="$x 1;">
-              <button class="Generate" onclick="">Generate</button>
-          </div>
-        </div>
-
-
+               <button class="Generate" onclick="">Generate</button>
+            </div>
+         </div>
          <button class="tablink" onclick="openCity('meme', this,'#2C2F33')">Meme</button>
          <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
          <button class="tablink" onclick="openCity('rng', this, '#ffa700')">rng</button>
-
          <button class="buttonload">
          <i class="fa fa-spinner fa-spin"></i>Loading
          </button>
@@ -175,18 +143,14 @@
          <button class="buttonload">
          <i class="fa fa-refresh fa-spin"></i>Loading
          </button>
-
-<!-- google translate -->
-
+         <!-- google translate -->
          <div class="widget Translate" data-version="1" id="Translate1">
             <h6 class="title">Translate</h6>
-
             <div id="google_translate_element">
                <div class="skiptranslate goog-te-gadget" dir="ltr">
                   <div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;"><span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)"><span>請選取語言</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span style="border-left: 1px solid rgb(187, 187, 187);">​</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span aria-hidden="true" style="color: rgb(155, 155, 155);">▼</span></a></span></div>
                </div>
             </div>
-
             <script>
                function googleTranslateElementInit() {
                  new google.translate.TranslateElement({
@@ -198,18 +162,11 @@
             </script>
             <script src="js/googletranslate.js"></script>
          </div>
-
-
-      <script  src="js/index.js"></script>
-
-   </body>
-
-
-   <footer>
-      <hr>
-      </hr>
-      <h4>This is footer, it under test <a href="https://images-ext-1.discordapp.net/external/HFQEaGQ2tNkkujsbRCm1UNQ3lkhndSayRcmOObsULUA/https/cdn.discordapp.com/attachments/289482554250100736/357255661039648789/binzy_avi_3_dark.gif" target="_blank">kthxbai</a></h4>
-   </footer>
-
-
-</html>
+         <script  src="js/index.js"></script>
+         </body>
+         <footer>
+            <hr>
+            </hr>
+            <h4>This is footer, it under test <a href="https://images-ext-1.discordapp.net/external/HFQEaGQ2tNkkujsbRCm1UNQ3lkhndSayRcmOObsULUA/https/cdn.discordapp.com/attachments/289482554250100736/357255661039648789/binzy_avi_3_dark.gif" target="_blank">kthxbai</a></h4>
+         </footer>
+      </html>
