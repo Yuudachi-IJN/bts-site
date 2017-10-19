@@ -127,7 +127,7 @@ body {font-family: "Lato", sans-serif;}
 
 /* meme text */
 
-H4 {
+MARQUEE {
     -webkit-animation-direction: normal;
     -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count:
@@ -204,12 +204,12 @@ input::-webkit-inner-spin-button {
 .number {
   border-top: 0;
   border-right: 0;
-  border-bottom: 3px solid red; 
+  border-bottom: 3px solid red;
   border-left: 0;
 
-  outline:none; 
-  background-color:#0057e7; 
-  color: white; 
+  outline:none;
+  background-color:#0057e7;
+  color: white;
   font-size: 20px;
 
 }
