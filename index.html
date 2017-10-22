@@ -105,14 +105,16 @@
                <div id="rng-result" class="answer" style="font-size: 100px;">9</div>
                <div class="space1"></div>
                <div id="rng-input">
-                  <div class="txt" id="Min" style="color:#008744;">Min</div>
-                  <div class="user"><input class="number" value="1" id="_cGn" max="9999999999" min="-9999999999" type="number"></div>
-                  <div class="txt" id="Max" style="color:#008744;">Max</div>
-                  <div class="user" ><input class="number" value="10" id="_bGn" max="9999999999" min="-9999999999" type="number"></div>
+                  <div class="txt" id="Min_txt" style="color:#008744;">Min</div>
+                  <div class="user"><input class="number" id="Max" value="1" max="9999999999" min="-9999999999" type="number"></div>
+                  <div class="txt" id="Max_txt" style="color:#008744;">Max</div>
+                  <div class="user" ><input class="number" id="min" value="10" max="9999999999" min="-9999999999" type="number"></div>
                </div>
             </div>
                <button id ="generate"class="Generate" style="outline:none;" onclick="Generate()">Generate</button>
          </div>
+
+
          <button class="tablink" onclick="openCity('meme', this,'#2C2F33')">Meme</button>
          <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>

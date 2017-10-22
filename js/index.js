@@ -60,7 +60,12 @@ function showSlides() {
 
 //rng
 function Generate() {
-    getElementById('rng-result').innerHTML=Date()
+    var rng = document.getElementById('rng-result');
+    var max = document.getElementById('max');
+    var min = document.getElementById('min').Value;
+    //getElementById('rng-result').innerHTML =Date()
+    //rng.innerHTML =Math.floor((Math.random() * max) + min);
+    rng.innerHTML = min;
 }
 
 
