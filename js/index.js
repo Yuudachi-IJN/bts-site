@@ -66,7 +66,7 @@ function Generate() {
     var min = document.getElementById('min');
     var minvalue = min.value;
     //getElementById('rng-result').innerHTML =Date()
-    rng.innerHTML =Math.random(minvalue,maxvalue);
+    rng.innerHTML = Math.floor(Math.random() * (maxvalue - minvalue) + 1);
     //rng.innerHTML = minvalue;
 }
 
