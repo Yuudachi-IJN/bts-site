@@ -62,10 +62,12 @@ function showSlides() {
 function Generate() {
     var rng = document.getElementById('rng-result');
     var max = document.getElementById('max');
-    var min = document.getElementById('min').Value;
+    var maxvalue = max.value;
+    var min = document.getElementById('min');
+    var minvalue = min.value;
     //getElementById('rng-result').innerHTML =Date()
-    //rng.innerHTML =Math.floor((Math.random() * max) + min);
-    rng.innerHTML = min;
+    rng.innerHTML =Math.random(minvalue,maxvalue);
+    //rng.innerHTML = minvalue;
 }
 
 

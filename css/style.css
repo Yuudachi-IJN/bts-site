@@ -127,22 +127,6 @@ body {font-family: "Lato", sans-serif;}
 
 /* meme text */
 
-MARQUEE {
-    -webkit-animation-direction: normal;
-    -webkit-animation-duration: 0.3s;
-    -webkit-animation-iteration-count:
- infinite;
-    -webkit-animation-name: colours;
-    -webkit-animation-timing-function:
- ease;
-}
-
-@-webkit-keyframes colours {
-      0% {color: #ff0000;}
-     40% {color: #00ff00;}
-     80% {color: #0000ff;}
-   100%{color: #ff0000;}
-}
 
 /* footer meme */
 
