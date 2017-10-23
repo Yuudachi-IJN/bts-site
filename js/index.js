@@ -60,15 +60,47 @@ function showSlides() {
 
 //rng
 function Generate() {
-    var rng = document.getElementById('rng-result');
-    var max = document.getElementById('max');
-    var maxvalue = max.value;
-    var min = document.getElementById('min');
-    var minvalue = min.value;
-    var done = Math.round(Math.random() * (maxvalue - minvalue)+min );
+    var rng_result = document.getElementById('rng-result');
+    var maxEl = document.getElementById('max');
+    var max = parseInt(maxEl.value);
+    var minEl = document.getElementById('min');
+    var min = parseInt(minEl.value);
 
-    rng.innerHTML =done;
+    var n = 60;
+    var waitTime = 0;
     
+    function randomNum() {
+      return min + Math.round(Math.random()*(max-min));
+    }
+    
+    
+    var a = randomNum();
+    var b;
+    var step;
+    var i;
+    
+    function rng() {
+      if (i === n) {
+        return;
+      }
+    
+      ++i;
+      a += step;
+
+      rng_result.innerHTML = Math.round(a);
+    
+      setTimeout(rng, waitTime);
+    }
+    
+    function runRng() {
+      i = 1;
+      b = randomNum();
+      step = (b-a)/n;
+      //console.warn('a', a, 'b', b);
+      rng();
+    }
+
+    runRng();
 }
 
 
