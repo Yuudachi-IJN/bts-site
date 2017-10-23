@@ -95,6 +95,12 @@ function Generate() {
     function runRng() {
       i = 1;
       b = randomNum();
+      if (max < min){
+            var nmin = max;
+            maxEl.value = min;
+            minEl.value = nmin;
+
+      }
       step = (b-a)/n;
       //console.warn('a', a, 'b', b);
       rng();
