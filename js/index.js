@@ -65,9 +65,10 @@ function Generate() {
     var maxvalue = max.value;
     var min = document.getElementById('min');
     var minvalue = min.value;
-    //getElementById('rng-result').innerHTML =Date()
-    rng.innerHTML = Math.floor(Math.random() * (maxvalue - minvalue) + 1);
-    //rng.innerHTML = minvalue;
+    var done = Math.round(Math.random() * (maxvalue - minvalue)+min );
+
+    rng.innerHTML =done;
+    
 }
 
 
