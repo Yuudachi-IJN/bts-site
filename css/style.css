@@ -207,7 +207,7 @@ input::-webkit-inner-spin-button {
 .number {
   border-top: 0;
   border-right: 0;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #00bdff;
   border-left: 0;
 
   outline:none;
