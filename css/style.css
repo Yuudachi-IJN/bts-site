@@ -107,7 +107,7 @@ body {font-family: "Lato", sans-serif;}
 #meme {background-color:#2C2F33;}
 #music {background-color:#b1e1e2;}
 #umu {background-color:#3b5998;}
-#rng {background-color:#ffa700;}
+#rng {background-color:#00bdff;}
 
 
 /* loading button css */
@@ -180,7 +180,7 @@ input::-webkit-inner-spin-button {
    }
 
 .Generate {
-       background-color: #00ff00;
+       background-color: #00bdff;
        border: none;
        color: white;
        padding: 12px 24px;
@@ -192,7 +192,7 @@ input::-webkit-inner-spin-button {
 }
 
 .button {
-    background-color:#b700ff;
+    background-color:#ffffff;
     border: none;
     color: white;
     padding: 10px 400px;
@@ -211,7 +211,7 @@ input::-webkit-inner-spin-button {
   border-left: 0;
 
   outline:none;
-  background-color:#0057e7;
+  background-color:#00bdff;
   color: white;
   font-size: 20px;
 
