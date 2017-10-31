@@ -68,30 +68,30 @@ function Generate() {
 
     var n = 60;
     var waitTime = 0;
-    
+
     function randomNum() {
       return min + Math.round(Math.random()*(max-min));
     }
-    
-    
+
+
     var a = randomNum();
     var b;
     var step;
     var i;
-    
+
     function rng() {
       if (i === n) {
         return;
       }
-    
+
       ++i;
       a += step;
 
       rng_result.innerHTML = Math.round(a);
-    
+
       setTimeout(rng, waitTime);
     }
-    
+
     function runRng() {
       i = 1;
       b = randomNum();
@@ -115,6 +115,16 @@ function Generate() {
 //document.documentElement.clientWidth)}var x=function(a){google.rll(a,!1,function(){++r;0<r&&r==q&&(google.tick("webaft",e),v())})};(function(){google.c.c.e&&(l=document.getElementById("csi-ping"))&&l.addEventListener("click",t);if(google.timers&&google.timers.load.t){google.c.c.a&&(google.startTick("aft"),google.afte=!1);var a=document.getElementsByTagName("img");m=a.length;for(var c=n=0,b;c<m;++c)if(b=a[c],google.c.c.i&&"none"==b.style.display)++n;else{var g="string"!=typeof b.src||!b.src,d=g||b.complete;b.getAttribute("data-noaft")?d=!0:google.c.c.d?b.getAttribute("data-deferred")?(d=!1,b.removeAttribute("data-deferred")):(g||"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="===b.src)&&b.setAttribute("lazy-loaded",""):google.c.c.m&&g&&b.getAttribute("data-bsrc")&&(d=!1);d?++n:(google.rll(b,!0,u),google.c.c.e&&w(b)&&(++q,x(b)))}p=m-n;google.rll(window,!1,function(){google.tick("load",h);google.c.e("load","imc",String(n));google.c.e("load","imn",String(m));google.c.e("load","imp",String(p));google.c.u("pr")});google.tick("load",[k,f]);google.c.c.e&&(google.tick("webaft",[k,e]),0==q&&
 //v())}google.c.c.n&&0<document.getElementsByClassName("native_iml_flag").length&&google.c.b("ncr")})();}).call(this);
 
+// disable right/middle click
 
+document.onmousedown=disableclick;
+status="Right Click Disabled";
+function disableclick(e)
+{
+   if (e.button == 2) {
+     alert(status);
+     return false;
+   }
+}
 
 // fin
