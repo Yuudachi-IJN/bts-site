@@ -6,69 +6,19 @@
       <link rel="stylesheet" href="css/style.css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          <h1 class="sansserif">Web development</h1>
-
-
-         <style>
-
-
-            /* div {
-              background-color: lightgrey;
-              width: 300px;
-              border: 1px solid green;
-              padding: 1px;
-              margin: 1px;
-              } */
-
-            </style>
-
+         
    </head>
    <body oncontextmenu="return false">
       <html>
-         <!--[if gte IE 8]>內容<![endif]-->
-         <!-- <div class="tab">
-            <button class="tablinks" onclick="openPage(event, 'Home')">Home</button>
-            <button class="tablinks" onclick="openPage(event, 'About')">About</button>
-            <button class="tablinks" onclick="openPage(event, 'TestPage')">k</button>
-            <button class="tablinks" oneclick="openPage(event, 'meme')">Meme hall</button>
-            </div>
-
-
-
-            <div id="Home" class="tabcontent">
-            <h3>Home</h3>
-            <p>yee</p>
-            </div>
-
-            <div id="About" class="tabcontent">
-            <h3>Site Info</h3>
-            <p>Site Builder: Samuel, Eason</p>
-            <hr></hr>
-            <h3>Site's start date(Start coding this)</h3>
-            <p>2017/09/14</p>
-            </div>
-
-            <div id="TestPage" class="tabcontent">
-            <h3>k</h3>
-            <p>k</p>
-            </div>
-
-            <div id="meme" class="tabcontent">
-
-            </div> -->
-         <!-- <div id="fb-root"></div>
-         <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk')); -->
+        <!-- list  -->
          </script>
          <button class="tablink" onclick="openCity('home', this, '#b1e1e2')" id="defaultOpen">Home</button>
          <button class="tablink" onclick="openCity('about', this, '#3fd7a9')">About</button>
          <button class="tablink" onclick="openCity('discord', this, '#7289DA')">Discord</button>
          <button class="tablink" onclick="openCity('meme', this,'#2C2F33') ">Meme</button>
-         <!-- <button class="tablink" onclick="openCity('umu', this, '#3b5998')">FaceBook</button> -->
+
+         <!-- home -->
+         
          <div id="home" class="tabcontent">
             <h3 align="left">Web development</h3>
             <p align="left"></p>
@@ -80,25 +30,26 @@
          <div id="discord" class="tabcontent">
           <iframe src="https://discordapp.com/widget?id=365786762145955851&theme=dark" width="800" height="800" allowtransparency="true" frameborder="0"></iframe>
          </div>
-         <!-- <div id="umu" class="tabcontent">
-            <div class="fb-page" data-href="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/" data-tabs="timeline" data-width="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-               <blockquote cite="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%E7%84%A1%E7%95%8C%E5%A1%BE-279310215857863/%22%3E">無界塾</a></blockquote>
-            </div>
-         </div> -->
+        
+         <!-- meme -->
+
          <div id="meme" class="tabcontent">
             <img src="http://38.media.tumblr.com/87476448149835f3a8bcc6239aa3ab5b/tumblr_nd1hhtVTbz1tmzoh7o1_1280.gif" height="430" width="500">
             <div>
                <marquee width=20% LOOP="0" SCROLLAMOUNT="10" >MEME</marquee>
             </div>
          </div>
+
+         <!-- another tab -->
+         
          <div id="ok" class="tabcontent">
             <h3>lol</h3>
             <p>lol</p>
          </div>
+
+         <!-- Music -->
+
          <div id="music" class="tabcontent">
-            <!-- <marquee width=20% loop="0" scrollamount="10">Now playing: none</marquee>
-            <audio autoplay="true " volume = "0.1% " loop = "10"
-               src="music/fly.mp3" ></audio> -->
                 
                <audio src="music/fly.mp3" id="audio"></audio>
                <script>
@@ -117,7 +68,7 @@
                 }
               </script>
 
-              <input id ="generate" class ="generate" type="button" value="PLAY"  onclick="play()">
+              <button id ="Play" class="Play" onclick="play()">play</button>
               <audio id="audio" src="music/fly.mp3" ></audio>
          </div>
          <div id="rng" class="tabcontent">
@@ -131,7 +82,7 @@
                   <div class="user" ><input class="number" id="max" value="10" max="9999999999" min="-9999999999" type="number"></div>
                </div>
             </div>
-               <button id ="generate"class="Generate" style="outline:none;" onclick="Generate()">Generate</button>
+               <button id ="generate" class="Generate" onclick="Generate()">Generate</button>
          </div>
          <div id="Calculator" class="tabcontent">
          </div>
