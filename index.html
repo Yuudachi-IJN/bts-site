@@ -67,7 +67,7 @@
          <button class="tablink" onclick="openCity('home', this, '#b1e1e2')" id="defaultOpen">Home</button>
          <button class="tablink" onclick="openCity('about', this, '#3fd7a9')">About</button>
          <button class="tablink" onclick="openCity('discord', this, '#7289DA')">Discord</button>
-         <button class="tablink" onclick="openCity('meme', this,'#2C2F33')">Meme</button>
+         <button class="tablink" onclick="openCity('meme', this,'#2C2F33') ">Meme</button>
          <!-- <button class="tablink" onclick="openCity('umu', this, '#3b5998')">FaceBook</button> -->
          <div id="home" class="tabcontent">
             <h3 align="left">Web development</h3>
@@ -96,9 +96,29 @@
             <p>lol</p>
          </div>
          <div id="music" class="tabcontent">
-            <marquee width=20% loop="0" scrollamount="10">Now playing: none</marquee>
+            <!-- <marquee width=20% loop="0" scrollamount="10">Now playing: none</marquee>
             <audio autoplay="true " volume = "0.1% " loop = "10"
-               src="music/fly.mp3" ></audio>
+               src="music/fly.mp3" ></audio> -->
+                
+               <audio src="music/fly.mp3" id="audio"></audio>
+               <script>
+                  function play() {
+                    var audio = document.getElementById('audio');
+                    if (audio.paused) {
+                        audio.play();
+                        $('#play').removeClass('glyphicon-play-circle')
+                        $('#play').addClass('glyphicon-pause')
+                    }else{
+                        audio.pause();
+                        audio.currentTime = 0
+                        $('#play').addClass('glyphicon-play-circle')
+                        $('#play').removeClass('glyphicon-pause')
+                    }
+                }
+              </script>
+
+              <input id ="generate" class ="generate" type="button" value="PLAY"  onclick="play()">
+              <audio id="audio" src="music/fly.mp3" ></audio>
          </div>
          <div id="rng" class="tabcontent">
             <div id="rng-content" class="_TDn">
