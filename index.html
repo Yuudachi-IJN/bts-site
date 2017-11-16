@@ -6,7 +6,7 @@
       <link rel="stylesheet" href="css/style.css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          <h1 class="sansserif">Web development</h1>
-         
+
    </head>
    <body oncontextmenu="return false">
       <html>
@@ -50,26 +50,10 @@
          <!-- Music -->
 
          <div id="music" class="tabcontent">
-                
-               <audio src="music/fly.mp3" id="audio"></audio>
-               <script>
-                  function play() {
-                    var audio = document.getElementById('audio');
-                    if (audio.paused) {
-                        audio.play();
-                        $('#play').removeClass('glyphicon-play-circle')
-                        $('#play').addClass('glyphicon-pause')
-                    }else{
-                        audio.pause();
-                        audio.currentTime = 0
-                        $('#play').addClass('glyphicon-play-circle')
-                        $('#play').removeClass('glyphicon-pause')
-                    }
-                }
-              </script>
+              <audio id="audio" src="music/fly.mp3" ></audio>
+              <script  src="js/index.js"></script>
 
               <button id ="Play" class="Play" onclick="play()">play</button>
-              <audio id="audio" src="music/fly.mp3" ></audio>
          </div>
          <div id="rng" class="tabcontent">
             <div id="rng-content" class="_TDn">
@@ -86,22 +70,11 @@
          </div>
          <div id="Calculator" class="tabcontent">
          </div>
-
          
          <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
          <button class="tablink" onclick="openCity('rng', this, '#00bdff')">RNG</button>
          <button class="tablink" onclick="openCity('Calculator', this, '#123456')">Calculator</button>
-
-         <!-- <button class="buttonload">
-         <i class="fa fa-spinner fa-spin"></i>Loading
-         </button>
-         <button class="buttonload">
-         <i class="fa fa-circle-o-notch fa-spin"></i>Loading
-         </button>
-         <button class="buttonload">
-         <i class="fa fa-refresh fa-spin"></i>Loading
-         </button> -->
 
          <!-- google translate -->
          <div class="widget Translate" data-version="1" id="Translate1">

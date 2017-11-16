@@ -94,7 +94,31 @@ function Generate() {
 
     runRng();
 }
+// music
 
+var time = 0;
+
+var audio = document.getElementById('audio');
+setTimeout(timer, 1);
+
+function timer (){
+if (audio.paused) {
+     
+     time = time + 0.001;
+ }
+}
+
+function play() {
+    
+    var audio = document.getElementById('audio');
+    
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.pause();                   
+        audio.currentTime =  time;
+    }
+}
 
 document.onmousedown=disableclick;
 status="Right Click Disabled";
