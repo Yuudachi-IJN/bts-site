@@ -11,11 +11,10 @@
    <body oncontextmenu="return false">
       <html>
         <!-- list  -->
-         </script>
          <button class="tablink" onclick="openCity('home', this, '#b1e1e2')" id="defaultOpen">Home</button>
          <button class="tablink" onclick="openCity('about', this, '#3fd7a9')">About</button>
          <button class="tablink" onclick="openCity('discord', this, '#7289DA')">Discord</button>
-         <button class="tablink" onclick="openCity('meme', this,'#2C2F33') ">Meme</button>
+         <button class="tablink" onclick="openCity('Web development', this,'#2C2F33') ">Web development</button>
 
          <!-- home -->
          
@@ -23,38 +22,40 @@
             <h3 align="left">Web development</h3>
             <p align="left"></p>
          </div>
+
+         <!-- about -->
+
          <div id="about" class="tabcontent">
             <h3 align="left"></h3>
             <p align="left">This web page is development by xXxlololxXx and ~♪☆ yuudachi_IJN ☆♪~</p>
          </div>
+
+         <!-- discord -->
+
          <div id="discord" class="tabcontent">
           <iframe src="https://discordapp.com/widget?id=365786762145955851&theme=dark" width="800" height="800" allowtransparency="true" frameborder="0"></iframe>
-         </div>
-        
-         <!-- meme -->
-
-         <div id="meme" class="tabcontent">
-            <img src="http://38.media.tumblr.com/87476448149835f3a8bcc6239aa3ab5b/tumblr_nd1hhtVTbz1tmzoh7o1_1280.gif" height="430" width="500">
-            <div>
-               <marquee width=20% LOOP="0" SCROLLAMOUNT="10" >MEME</marquee>
-            </div>
-         </div>
-
-         <!-- another tab -->
-         
-         <div id="ok" class="tabcontent">
-            <h3>lol</h3>
-            <p>lol</p>
          </div>
 
          <!-- Music -->
 
          <div id="music" class="tabcontent">
-              <audio id="audio" src="music/fly.mp3" ></audio>
-              <script  src="js/index.js"></script>
+          <audio id="audio" src="music/fly.mp3" ></audio>
+          <script  src="js/index.js"></script>
 
-              <button id ="Play" class="Play" onclick="play()">play</button>
+          <button id ="Play" class="Play" onclick="play()">Play</button>
+          </div>
+        
+         <!-- Web development -->
+
+         <div id="Web development" class="tabcontent">
+            
+          <button class="tablink" onclick="openCity('music', this, '#b1e1e2')" id="defaultOpen">Music</button>
+          <button class="tablink" onclick="openCity('rng', this, '#3fd7a9')">RNG</button>
+          <button class="tablink" onclick="openCity('calculator', this, '#7289DA')">Calculator</button>
+
          </div>
+
+         <!-- RNG   -->
          <div id="rng" class="tabcontent">
             <div id="rng-content" class="_TDn">
                <div id="rng-result" class="answer" style="font-size: 100px;">5</div>
@@ -68,13 +69,13 @@
             </div>
                <button id ="generate" class="Generate" onclick="Generate()">Generate</button>
          </div>
-         <div id="Calculator" class="tabcontent">
+         <div id="calculator" class="tabcontent">
          </div>
          
-         <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
+         <!-- <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
          <button class="tablink" onclick="openCity('rng', this, '#00bdff')">RNG</button>
-         <button class="tablink" onclick="openCity('Calculator', this, '#123456')">Calculator</button>
+         <button class="tablink" onclick="openCity('Calculator', this, '#123456')">Calculator</button> -->
 
          <!-- google translate -->
          <div class="widget Translate" data-version="1" id="Translate1">

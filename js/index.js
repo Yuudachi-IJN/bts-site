@@ -110,13 +110,18 @@ if (audio.paused) {
 
 function play() {
     
+    var Play = document.getElementById('Play');
     var audio = document.getElementById('audio');
     
     if (audio.paused) {
+
         audio.play();
+        Play.innerHTML = "Pause";
     }else{
-        audio.pause();                   
+        audio.pause(); 
+        Play.innerHTML = "Play";                  
         audio.currentTime =  time;
+        
     }
 }
 
