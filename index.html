@@ -48,10 +48,14 @@
          <!-- Web development -->
 
          <div id="Web development" class="tabcontent">
-            
-          <button class="tablink" onclick="openCity('music', this, '#b1e1e2')" id="defaultOpen">Music</button>
-          <button class="tablink" onclick="openCity('rng', this, '#3fd7a9')">RNG</button>
-          <button class="tablink" onclick="openCity('calculator', this, '#7289DA')">Calculator</button>
+          
+          <span class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">Menu <span style="font-size:9px;">&#9660;</span>
+          <ul id="SubMenu1" class="sub-menu" style="display:none;">
+          <li><a onclick="openCity('music', this, '#b1e1e2')" target="_blank">Music</a></li>
+          <li><a onclick="openCity('rng', this, '#3fd7a9')" target="_blank">RNG</a></li>
+          <li><a onclick="openCity('calculator', this, '#7289DA')" target="_blank">Calculator</a></li>
+          </ul>
+          </span>
 
          </div>
 
