@@ -35,32 +35,13 @@
          <div id="discord" class="tabcontent">
           <iframe src="https://discordapp.com/widget?id=365786762145955851&theme=dark" width="800" height="800" allowtransparency="true" frameborder="0"></iframe>
          </div>
-
-         <!-- Music -->
-
-         <div id="music" class="tabcontent">
-          <audio id="audio" src="music/fly.mp3" ></audio>
-          <script  src="js/index.js"></script>
-
-          <button id ="Play" class="Play" onclick="play()">Play</button>
-          </div>
         
          <!-- Web development -->
 
          <div id="Web development" class="tabcontent">
-          
-          <span class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">Menu <span style="font-size:9px;">&#9660;</span>
-          <ul id="SubMenu1" class="sub-menu" style="display:none;">
-          <li><a onclick="openCity('music', this, '#b1e1e2')" target="_blank">Music</a></li>
-          <li><a onclick="openCity('rng', this, '#3fd7a9')" target="_blank">RNG</a></li>
-          <li><a onclick="openCity('calculator', this, '#7289DA')" target="_blank">Calculator</a></li>
-          </ul>
-          </span>
 
-         </div>
-
-         <!-- RNG   -->
-         <div id="rng" class="tabcontent">
+          <!-- RNG   -->
+         <div id="rng" width="200" height="200">
             <div id="rng-content" class="_TDn">
                <div id="rng-result" class="answer" style="font-size: 100px;">5</div>
                <div class="space1"></div>
@@ -76,6 +57,19 @@
          <div id="calculator" class="tabcontent">
          </div>
          
+
+         <!-- Music -->
+
+         <div id="music" width="200" height="200">
+          <audio id="audio" src="fill/music/fly.mp3" ></audio>
+          <script  src="js/index.js"></script>
+
+          <button id ="Play" class="Play" onclick="play()">Play</button>
+          </div>
+
+
+         </div>
+
          <!-- <button class="tablink" onclick="openCity('ok', this, '#ffcccc')">kek</button>
          <button class="tablink" onclick="openCity('music', this,'#b1e1e2')">Music</button>
          <button class="tablink" onclick="openCity('rng', this, '#00bdff')">RNG</button>
